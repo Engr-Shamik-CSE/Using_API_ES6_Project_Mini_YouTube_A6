@@ -120,7 +120,6 @@ const displayVideos = (videos) => {
       `;
         videoContainer.append(videoCard);
     });
-    // }, 300);
     hideLoader();
 }
 
