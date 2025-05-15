@@ -18,8 +18,8 @@ const displayVideoDetails = (video) =>{
     const detailsContainer = document.getElementById('details-container');
     detailsContainer.innerHTML=`
         <div class="card bg-base-100 shadow-sm gap-5 flex items-center">
-                    <figure class="relative ">
-                        <img class="rounded-lg h-[370px] w-[650px] object-cover" src="${video.thumbnail}"
+                    <figure class="relative w-full">
+                        <img class="rounded-lg h-[370px] w-full object-cover" src="${video.thumbnail}"
                             alt="thumbnal-image" />
                         <span class="bg-black absolute bottom-2 right-2 px-3 py-1 text-white text-sm rounded">3hrs 56min
                             ago</span>
